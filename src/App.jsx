@@ -4,7 +4,7 @@ import Hero from "./components/Hero";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import About from "./components/About"; 
-import MySkills from "./components/Myskills.jsx";
+// import MySkills from "./components/MySkills.jsx";
 import Footer from "./components/Footer";
 
 function App() {
