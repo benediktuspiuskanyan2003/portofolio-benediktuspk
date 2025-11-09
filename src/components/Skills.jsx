@@ -66,4 +66,4 @@ const MySkills = () => {
   );
 };
 
-export default Skills;
+export default MySkills;
