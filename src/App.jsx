@@ -3,8 +3,8 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
-import About from "./components/About";
-import MySkills from "./components/Myskills.jsx"; 
+import About from "./components/About"; 
+import MySkills from "./components/Myskills.jsx";
 import Footer from "./components/Footer";
 
 function App() {
@@ -31,7 +31,7 @@ function App() {
       <MySkills />
       <Projects />
       <Contact />
-      <Footer /> 
+      <Footer />
     </>
   );
 }
