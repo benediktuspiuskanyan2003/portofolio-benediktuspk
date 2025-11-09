@@ -6,7 +6,7 @@ const Projects = () => {
       title: "Portfolio Website",
       desc: "Personal portfolio menggunakan React + Glassmorphism UI.",
       tech: ["React", "Bootstrap", "CSS3"],
-      demoLink: "https://my-portfolio-sandy-sigma-30.vercel.app/",
+      demoLink: "https://portofolio-benediktuspk.vercel.app/",
       codeLink: "https://github.com/benediktuspiuskanyan2003/portofolio-benediktuspk"
     },
     {
