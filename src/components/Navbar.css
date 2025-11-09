@@ -1,0 +1,48 @@
+.navbar-glass {
+  background: rgba(255, 255, 255, 0.07);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  transition: all 0.3s ease;
+}
+
+.navbar-brand {
+  font-size: 1.3rem;
+  letter-spacing: .5px;
+}
+
+.accent {
+  color: #00eaff;
+}
+
+.nav-link {
+  color: #eee !important;
+  position: relative;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #00eaff !important;
+}
+
+.nav-link::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: #00eaff;
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  transition: .3s ease;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+/* Shadow saat scroll */
+.navbar-glass.scrolled {
+  background: rgba(0, 0, 0, 0.55);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}

@@ -1,0 +1,78 @@
+.contact-section {
+  padding: 100px 0;
+  color: #fff;
+}
+
+.contact-container {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.glass-box {
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.18);
+  backdrop-filter: blur(10px);
+  padding: 30px;
+  border-radius: 14px;
+  width: 320px;
+  animation: fadeIn 1s ease forwards;
+}
+
+.glass-box input,
+.glass-box textarea {
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+}
+
+.send-btn {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  background: #00c6ff;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.send-btn:hover {
+  background: #fff;
+  transform: translateY(-3px);
+}
+
+.contact-info iframe {
+  width: 350px;
+  height: 250px;
+  border: 0;
+  border-radius: 12px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 18px;
+  margin-top: 15px;
+}
+
+.social-icons a {
+  font-size: 28px;
+  transition: 0.3s;
+  color: #fff;
+}
+
+.social-icons a:hover {
+  color: #00c6ff;
+  transform: scale(1.2);
+}
+
+/* Fade */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px);}
+  to { opacity: 1; transform: translateY(0);}
+}
